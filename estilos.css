@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #fff0f5, #ffe4e1);
+    margin: 0;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background: #ff4d6d;
+    color: white;
+    padding: 20px;
+}
+
+header img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+/* RELOJ */
+#reloj {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* MENU */
+.menu {
+    padding: 20px;
+}
+
+.producto {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.03);
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e63950;
+}
+
+/* CARRITO */
+.carrito {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    background: #fff;
+    border-left: 3px solid #ff4d6d;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.carrito h2 {
+    color: #ff4d6d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffe4e1;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eliminar {
+    background: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Frutto & Crema</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <img src="Logo2.jpeg" alt="Logo de Frutto & Crema" class="logo">
+    <h1>🍓 Frutto & Crema</h1>
+    <p>El arte de combinar fresas, crema y chocolate</p>
+    <div id="reloj"></div>
+</header>
+
+<div class="menu">
+
+<h2>🍓 Las Clásicas</h2>
+
+<div class="producto">
+    <h3>La Tradicional</h3>
+    <p>Fresas, crema artesanal y canela</p>
+    <button onclick="agregar('La Tradicional')">Agregar</button>
+</div>
+
+<div class="producto">
+    <h3>Choco-Tradición</h3>
+    <button onclick="agregar('Choco-Tradición')">Agregar</button>
+</div>
+
+<div class="producto">
+    <h3>Oscura Tentación</h3>
+    <button onclick="agregar('Oscura Tentación')">Agregar</button>
+</div>
+
+<h2>✨ Especialidades</h2>
+
+<div class="producto"><h3>Frutto Royal</h3><button onclick="agregar('Frutto Royal')">Agregar</button></div>
+<div class="producto"><h3>Doble Cacao</h3><button onclick="agregar('Doble Cacao')">Agregar</button></div>
+<div class="producto"><h3>Pura Dulzura</h3><button onclick="agregar('Pura Dulzura')">Agregar</button></div>
+<div class="producto"><h3>Crunchy Berry</h3><button onclick="agregar('Crunchy Berry')">Agregar</button></div>
+
+<h2>🥤 Bebidas</h2>
+
+<div class="producto"><h3>Frappé Frutto</h3><button onclick="agregar('Frappé Frutto')">Agregar</button></div>
+<div class="producto"><h3>Malteada Choco-Fresa</h3><button onclick="agregar('Malteada Choco-Fresa')">Agregar</button></div>
+<div class="producto"><h3>Capuchino</h3><button onclick="agregar('Capuchino')">Agregar</button></div>
+
+</div>
+
+<!-- CARRITO -->
+<div class="carrito">
+    <h2>🛒 Carrito</h2>
+    <ul id="lista"></ul>
+    <button onclick="enviarWhatsApp()">📲 Enviar Pedido por WhatsApp</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
